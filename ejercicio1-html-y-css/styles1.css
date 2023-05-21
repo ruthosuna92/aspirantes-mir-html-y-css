@@ -1,0 +1,39 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  form {
+    color: white;
+    padding: 20px;
+    width: 100%;
+    border-radius: 20px;
+    margin: auto;
+    background: linear-gradient(#F11062, #8600AB, #060588);
+    box-shadow: 2px 2px 3px 1px black;
+    font-family: Verdana;
+  }
+  #password{
+    padding: 7px;
+    width: 94%;
+    }
+  .email{
+    width: 94%;
+    padding: 7px;
+  }
+  .ingresar{
+    margin-left: 72%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  select{
+    padding: 7px;
+    width: 100%;
+  }
+  
+  @media (min-width: 500px) {
+    form{
+      width: 300px;
+    }
+}
